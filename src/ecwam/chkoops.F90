@@ -79,7 +79,7 @@
 
         IF( NTRAJ /= IFSNUPTRA ) THEN
           IF (IFSNUPTRA < IFSMUPTRA - 1) THEN
-            IASSI = 0
+            ! IASSI = 0
             LWAMANOUT = .FALSE.
           ELSE
             IASSI = IASSI_ORIG
