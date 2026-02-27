@@ -455,6 +455,8 @@ IF (LHOOK) CALL DR_HOOK('IMPLSCH',0,ZHOOK_HANDLE)
         CALL WHITECAP_FRACTION (KIJS, KIJL, FL1, XLLWS, CINV, DEPTH, WSWAVE, CICOVER, UFRIC, COSWDIF, PHIOCD, WCF)
       ENDIF
 
+! Here will go the call to calculate mean square slope STEER
+
 !*    2.6 SET FL1 ON ICE POINTS TO ZERO
 !         -----------------------------
 
