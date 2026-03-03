@@ -177,8 +177,6 @@ SUBROUTINE IMPLSCH (KIJS, KIJL, FL1,                         &
       LOGICAL :: LCFLX
       LOGICAL :: LUPDTUS
 
-      LOGICAL :: LWMSS
-
 ! ----------------------------------------------------------------------
 
 IF (LHOOK) CALL DR_HOOK('IMPLSCH',0,ZHOOK_HANDLE)
